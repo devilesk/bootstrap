@@ -14,6 +14,9 @@
   vertical-align: baseline;
   border-radius: .25em;
 
+  a {
+    color: @label-color;
+  }
   // Add hover effects, but only for links
   a& {
     &:hover,
@@ -40,25 +43,25 @@
 // Contextual variations (linked labels get darker on :hover)
 
 .label-default {
-  .label-variant(@label-default-bg);
+  .label-variant(@label-default-bg, @label-default-color);
 }
 
 .label-primary {
-  .label-variant(@label-primary-bg);
+  .label-variant(@label-primary-bg, @label-primary-color);
 }
 
 .label-success {
-  .label-variant(@label-success-bg);
+  .label-variant(@label-success-bg, @label-success-color);
 }
 
 .label-info {
-  .label-variant(@label-info-bg);
+  .label-variant(@label-info-bg, @label-info-color);
 }
 
 .label-warning {
-  .label-variant(@label-warning-bg);
+  .label-variant(@label-warning-bg, @label-warning-color);
 }
 
 .label-danger {
-  .label-variant(@label-danger-bg);
+  .label-variant(@label-danger-bg, @label-danger-color);
 }

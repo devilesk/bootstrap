@@ -186,6 +186,14 @@
       margin-left: -@navbar-padding-horizontal;
     }
   }
+
+  display: none;
+  @media (max-width: @grid-float-breakpoint-max) {
+    display: block;
+  }
+  @media (min-width: @screen-md-min) {
+    display: block;
+  }
 }
 
 
@@ -429,7 +437,7 @@
       &,
       &:hover,
       &:focus {
-        color: @navbar-default-link-active-color;
+        color: @link-color;
         background-color: @navbar-default-link-active-bg;
       }
     }

@@ -310,12 +310,12 @@ fieldset[disabled] .btn-danger.active {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  background-image: -webkit-linear-gradient(top, #202123 0%, #141416 100%);
-  background-image: -o-linear-gradient(top, #202123 0%, #141416 100%);
-  background-image: linear-gradient(to bottom, #202123 0%, #141416 100%);
+  background-image: -webkit-linear-gradient(top, #303136 0%, #242528 100%);
+  background-image: -o-linear-gradient(top, #303136 0%, #242528 100%);
+  background-image: linear-gradient(to bottom, #303136 0%, #242528 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff202123', endColorstr='#ff141416', GradientType=0);
-  background-color: #141416;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff303136', endColorstr='#ff242528', GradientType=0);
+  background-color: #242528;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
