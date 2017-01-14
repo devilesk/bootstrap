@@ -2,15 +2,15 @@
 
 .label-variant(@bg-color, @color) {
   background-color: @bg-color;
-  color: @color;
+  color: lighten(@bg-color, 50%);
   
   a {
-    color: @color;
+    color: lighten(@bg-color, 50%);
   }
   &[href] {
     &:hover,
     &:focus {
-      background-color: darken(@bg-color, 10%);
+      background-color: lighten(@bg-color, 10%);
     }
   }
 }

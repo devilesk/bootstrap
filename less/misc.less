@@ -5,13 +5,14 @@
     text-decoration: none;
     display: block;
     padding-bottom: 15px;
-    color: inherit;
+    color: @text-color;
+    
+    &:hover {
+        color: lighten(@text-color, 20%);
+    }
 }
 .media-left > img {
     width: 90px;
-}
-.media-body:hover {
-    opacity: 0.8;
 }
 .overlay-hover:hover {
 	opacity: .15;
